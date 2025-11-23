@@ -1,3 +1,11 @@
+/* 
+===================================================================================
+    Ramírez Lozano Gael Martín & González Martínez Silvia 
+    - PROYECTO - Práctica_1 Carrito de Compras
+    Clase "GeneradorCatalogo.java" para crear la Base de Datos de Productos
+    6CM4
+=================================================================================== 
+*/
 import java.io.FileOutputStream;
 import java.io.ObjectOutputStream;
 import java.util.ArrayList;

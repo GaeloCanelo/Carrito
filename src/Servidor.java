@@ -1,3 +1,11 @@
+/* 
+===================================================================================
+    Ramírez Lozano Gael Martín & González Martínez Silvia 
+    - PROYECTO - Práctica_1 Carrito de Compras
+    Clase "Servidor.java"
+    6CM4
+=================================================================================== 
+*/
 import java.io.*;
 import java.util.ArrayList;
 import java.net.ServerSocket;

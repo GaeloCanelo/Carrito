@@ -1,3 +1,11 @@
+/* 
+===================================================================================
+    Ramírez Lozano Gael Martín & González Martínez Silvia 
+    - PROYECTO - Práctica_1 Carrito de Compras
+    Clase "Producto.java" Asignación de atributos | Constructores | Getters y Setters
+    6CM4
+=================================================================================== 
+*/
 import java.io.Serializable;
 
 // "implements Serializable" es el permiso para viajar por la red
