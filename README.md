@@ -1,3 +1,4 @@
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/GaeloCanelo/Carrito)
 # 🛒 Sistema de Carrito de Compras (Cliente-Servidor)
 
 Este proyecto implementa un sistema de ventas distribuido basado en la arquitectura **Cliente-Servidor** utilizando **Java Sockets**. El sistema permite la gestión de inventario en tiempo real, transmisión de archivos (imágenes) y generación de comprobantes de compra en PDF.
