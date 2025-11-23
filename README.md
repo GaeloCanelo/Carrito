@@ -45,15 +45,13 @@ ProyectoCarrito/
 │   │   └── ...
 │   └── Destino_CLT/            <-- Carpeta temporal del CLIENTE (se crea sola)
 └── README.md
-
-Aquí tienes el texto completo en formato markdown:
+```
 
 ## ⚙️ Requisitos Previos
 
 * **Java Development Kit (JDK):** Versión 8 o superior.
 * **Librería iText:** Asegúrate de tener el archivo `itextpdf-5.5.13.2.jar` en la carpeta `lib`.
 
----
 
 ## 🛠️ Compilación y Ejecución
 
