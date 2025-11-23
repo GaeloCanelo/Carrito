@@ -45,3 +45,65 @@ ProyectoCarrito/
 │   │   └── ...
 │   └── Destino_CLT/            <-- Carpeta temporal del CLIENTE (se crea sola)
 └── README.md
+
+Aquí tienes el texto completo en formato markdown:
+
+## ⚙️ Requisitos Previos
+
+* **Java Development Kit (JDK):** Versión 8 o superior.
+* **Librería iText:** Asegúrate de tener el archivo `itextpdf-5.5.13.2.jar` en la carpeta `lib`.
+
+---
+
+## 🛠️ Compilación y Ejecución
+
+Debido a que el proyecto utiliza una librería externa, es necesario especificar el **Classpath** (`-cp`) al compilar y ejecutar.
+
+Ubícate en la carpeta `src` desde tu terminal.
+
+### 🪟 En Windows (PowerShell / CMD)
+
+1. **Compilar todo el proyecto:**
+   ```powershell
+   javac -cp ".;../lib/itextpdf-5.5.13.2.jar" *.java
+   ```
+
+2. **Ejecutar el Servidor:**
+   ```powershell
+   java -cp ".;../lib/itextpdf-5.5.13.2.jar" Servidor
+   ```
+
+3. **Ejecutar el Cliente (en otra terminal):**
+   ```powershell
+   java -cp ".;../lib/itextpdf-5.5.13.2.jar" Cliente
+   ```
+
+### 🐧 En Linux (Ubuntu) / MacOS
+
+**Nota:** El separador de rutas cambia de punto y coma (`;`) a dos puntos (`:`).
+
+1. **Compilar todo el proyecto:**
+   ```bash
+   javac -cp ".:../lib/itextpdf-5.5.13.2.jar" *.java
+   ```
+
+2. **Ejecutar el Servidor:**
+   ```bash
+   java -cp ".:../lib/itextpdf-5.5.13.2.jar" Servidor
+   ```
+
+3. **Ejecutar el Cliente:**
+   ```bash
+   java -cp ".:../lib/itextpdf-5.5.13.2.jar" Cliente
+   ```
+
+---
+
+## 📝 Notas de Uso
+
+* **Puerto por defecto:** El servidor escucha en el puerto 6040.
+* **Imágenes:** Asegúrate de colocar imágenes .jpg o .png en la carpeta `src/Origen_SV` con los nombres exactos definidos en el catálogo.
+* **Primer Uso:** Si no existe el archivo `productos.dat`, ejecuta primero `GeneradorCatalogo` para crear el inventario inicial.
+
+**Autores:** Ramírez Gael & González Silvia  
+**Fecha:** Noviembre 2025
